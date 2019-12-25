@@ -1,0 +1,69 @@
+.banner img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-container > div {
+    margin: 50px;
+}
+.flex-container>div#sign>a {
+    font-family: "Roboto Light";
+    margin-right: 250px;
+    border: 2px solid #73C650;
+    text-decoration: none;
+    color: #73C650;
+    border-radius: 100px;
+    padding: 20px 30px;
+}
+.flex-container>div#about>a{
+    font-family: "Roboto Light";
+    text-decoration: none;
+    color: black;
+
+}
+.text-hapo {
+    font-family: "Enso";
+    text-align: center;
+    color: #73C650;
+    font-size: 50px;
+}
+
+.flex-icon {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-icon > div {
+    width: 100px;
+    margin: 60px;
+}
+.flex-text {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-text > div {
+    width: 100px;
+    margin: -55px 90px 30px 40px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.text-banner {
+    text-align: center;
+}
+.btn-start a {
+    text-align: center;
+    border: 2px solid #73C650;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    padding: 20px 30px;
+    background-color: green;
+}
