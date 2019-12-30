@@ -1,14 +1,14 @@
 @font-face {
-    src: url("./fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
     font-family: Roboto-Regular;
-    src: url("./fonts/Roboto-Light.ttf");
+    src: url("../fonts/Roboto-Light.ttf");
     font-family: Roboto-Light;
-    src: url("./fonts/Roboto-Italic.ttf");
+    src: url("../fonts/Roboto-Italic.ttf");
     font-family: Roboto-Italic;
 
 }
 .header {
-    background-image: url("./img/banner@2x.png");
+    background-image: url("../img/banner@2x.png");
     height: 800px;
     background-size: cover;
 }
@@ -19,7 +19,7 @@
 .header-btn > div {
     margin: 50px;
 }
-.header-btn>div#signin>a {
+.header-btn>div#signin>span {
     font-family: Roboto-Regular;
     margin-right: 200px;
     border: 2px solid #73C650;
@@ -28,22 +28,18 @@
     border-radius: 100px;
     padding: 20px 30px;
 }
-.header-btn>div#about>a{
+.header-btn>div#about>span{
     font-family: Roboto-Regular;
     text-decoration: none;
     color: black;
 
 }
-.text-hapo {
-    font-family: "Enso";
-    text-align: center;
-    color: #73C650;
-    font-size: 50px;
-}
+
 .header-icon ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    font-size: 16px;
 
 }
 .header-icon > ul > li{
@@ -71,14 +67,14 @@
     display: flex;
     justify-content: center;
 }
-.btn-start a {
+.btn-start span {
     margin-top: 30px;
     border: 2px solid #73C650;
     text-decoration: none;
     color: white;
     border-radius: 100px;
     padding: 15px 35px;
-    background-image: linear-gradient(to right, #00962C, #9BF157);
+    background-image: linear-gradient(to right, #00992D, #95ED55);
 }
 .content-today {
     margin: 10% 0;
@@ -93,13 +89,13 @@
 .text-content {
     margin: 0px 130px 0 50px;
 }
-.text-content a {
+.text-content span {
     border: 2px solid #73C650;
     text-decoration: none;
     color: white;
     border-radius: 100px;
     padding: 15px 35px;
-    background-image: linear-gradient(to right, #00962C, #9BF157);
+    background-image: linear-gradient(to right, #00992D, #95ED55);
 }
 .text-content > .text-header {
     display: flex;
@@ -132,12 +128,56 @@
 .content-daily > .text-content {
     margin: 0px 50px 0 140px;
 }
-.option{
-    background-image: linear-gradient(to right, #00962C , #9BF157);
-    height: 322px;
+
+
+.content-info {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    height: 320px;
+    background-image: linear-gradient(to right, #00992D, #95ED55);
 }
+.lists-content {
+    align-items: center;
+    padding: 0 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.big-circle {
+    width: 6.5em;
+    height: 6.5em;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-circle {
+    width: 2.7em;
+    height: 2.7em;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #7CB342;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lists-content p {
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0.7em;
+}
+.size-icon-list {
+    font-size: 2.2em;
+}
+.small-circle span {
+    font-size: 24px;
+}
+
 .content-members {
     margin: 10% 0;
     display: flex;
@@ -158,4 +198,52 @@
 }
 .content-project > .text-content {
     margin: 0px 50px 0 140px;
+}
+
+.footer {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #39474E;
+    align-items: center;
+}
+.footer-block img {
+    width: 96px;
+    height: 29px;
+}
+.footer-block {
+    width: 200px;
+}
+.footer-block p {
+    color: white;
+    font-family: roboto;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.footer-icon {
+    width: 200px;
+    margin-top: 60px;
+}
+.footer-block span {
+    font-family: roboto;
+    color: #8BC34A;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: -0.03px;
+}
+.footer-text {
+    margin-top: 30px;
+}
+.footer-text a {
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 10px;
+    letter-spacing: -0.02;
+}
+.footer-icon i {
+    color: #8BC34A;
+    flex-direction: row;
+    width: 100px;
 }
