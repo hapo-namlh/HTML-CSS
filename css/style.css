@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
 }
-.btn-start span {
+.btn-start a {
     margin-top: 30px;
     border: 2px solid #73C650;
     text-decoration: none;
@@ -91,17 +91,21 @@
 .content-today {
     margin: 10% 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 .asset > img {
-    margin-left: 300px;
     height: 400px;
     width: 600px;
 }
 .text-content {
-    margin: 0px 130px 0 50px;
+    margin: -40px 0 0 50px;
 }
-.text-content span {
+.text-content1 {
+    width: 555px;
+    text-align: justify;
+    line-height: 24px;
+}
+.text-content a {
     border: 2px solid #73C650;
     text-decoration: none;
     color: white;
@@ -110,29 +114,24 @@
     background-image: linear-gradient(to right, #00992D, #95ED55);
 }
 .content-btn-start {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .text-header {
-    margin: -40px -5px -5px -5px;
     font-size: 40px;
 }
 .content-daily {
     margin: 10% 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
-.content-daily > .text-header {
-    display: flex;
-    flex-direction: row;
-}
+
 .daily-report > img {
-    margin-right: 300px;
     height: 400px;
     width: 600px;
 }
 .content-daily > .text-content {
-    margin: 0px 50px 0 140px;
+    margin: 0px 50px 0 50px;
 }
 
 
@@ -187,23 +186,42 @@
 .content-members {
     margin: 10% 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 .content-members > .text-content {
-    margin: 0px 50px 0 140px;
+    margin: 0px 50px 0 50px;
 }
+
 .content-customers {
     margin: 10% 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
+
+.our-customer {
+    height: 544px;
+    width: 100%;
+    background-image: url("../img/rectangle3.png");
+    color: white;
+}
+.list-customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one-customer {
+    text-align: center;
+    font-size: 13px;
+    width: 144px;
+}
+
 .content-project {
     margin: 10% 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 .content-project > .text-content {
-    margin: 0px 50px 0 140px;
+    margin: 0px 50px 0 50px;
 }
 
 .footer {
