@@ -5,14 +5,8 @@
     font-family: Roboto-Light;
     src: url("../fonts/Roboto-Italic.ttf");
     font-family: Roboto-Italic;
-
 }
-/*.header {*/
-/*    background: url("../img/banner@2x.png") no-repeat;*/
-/*    background-size: contain;*/
-/*    width: 1900px;*/
-/*    height: 865px;*/
-/*}*/
+
 .header {
     height: 875px;
     background-size: cover;
@@ -25,21 +19,25 @@
 .header-btn > div {
     margin: 50px;
 }
-.header-btn>div#signin>span {
+#signin > a {
     font-family: Roboto-Regular;
     margin-right: 260px;
     border: 2px solid #73C650;
     text-decoration: none;
     color: #73C650;
-    border-radius: 100px;
+    border-radius: 25px;
     padding: 20px 30px;
 }
-.header-btn>div#about>span{
+#signin > a:hover {
+    background-color: #73C650;
+    color: white;
+}
+#about > a {
     font-family: Roboto-Regular;
     text-decoration: none;
     color: black;
-
 }
+
 .header-logo {
     margin: 135px 0 65px 0;
     display: flex;
@@ -84,9 +82,12 @@
     border: 2px solid #73C650;
     text-decoration: none;
     color: white;
-    border-radius: 100px;
+    border-radius: 25px;
     padding: 15px 35px;
     background-image: linear-gradient(to right, #00992D, #95ED55);
+}
+.btn-start > a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .content-today {
     margin: 10% 0;
@@ -100,7 +101,7 @@
 .text-content {
     margin: -40px 0 0 50px;
 }
-.text-content1 {
+.para-content {
     width: 555px;
     text-align: justify;
     line-height: 24px;
@@ -109,9 +110,12 @@
     border: 2px solid #73C650;
     text-decoration: none;
     color: white;
-    border-radius: 100px;
+    border-radius: 25px;
     padding: 15px 35px;
     background-image: linear-gradient(to right, #00992D, #95ED55);
+}
+.content-btn-start > a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .content-btn-start {
     margin-top: 35px;
@@ -131,7 +135,7 @@
     width: 600px;
 }
 .content-daily > .text-content {
-    margin: 0px 50px 0 50px;
+    margin: 0 50px 0 50px;
 }
 
 
@@ -189,7 +193,7 @@
     justify-content: center;
 }
 .content-members > .text-content {
-    margin: 0px 50px 0 50px;
+    margin: 0 50px 0 50px;
 }
 
 .content-customers {
@@ -266,7 +270,7 @@
     justify-content: center;
 }
 .content-project > .text-content {
-    margin: 0px 50px 0 50px;
+    margin: 0 50px 0 50px;
 }
 
 .footer {
